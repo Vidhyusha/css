@@ -1,0 +1,18 @@
+/* external style */
+h1{
+    color:blueviolet;
+}
+*{
+    background-color:orange;
+}
+img{
+    width:10%;
+    border-radius: 50%;
+}
+h2{
+    color:aqua;
+}
+p{
+    text-decoration:sedran;
+    color:black;
+}
