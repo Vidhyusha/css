@@ -1,45 +1,38 @@
-/* external style */
-#head{
-    color:blue;
-    background-color:orange;
-} 
-.head2{
-    background-color: bisque;
+
+.container{
+    background-color: grey;
+    display: flex;
+    border: 2px solid black;
+    width:100%;
+    justify-content:space-around;
+    margin:10px;
+}
+.container2{
+    background-color:blue;
+    display: flex;
+    border: 2px solid black;
+    width:100%;
+    justify-content:space-around;
+    margin:10px;
+}
+
+.item{
+    padding:10px;
 }
 img{
-    width:10%;
-    border-radius: 50%;
+    width:100%;
+    height: auto;
+    position: relative;
 }
-h2{
-    font-family:"Edu QLD Hand", cursive;
-    background-color:blueviolet;
+.content{
+    top:50%;
+    left:30%;
+    position: absolute;
+    font-size: 80px;
 }
-/* p{
-    color:red;
-    background-color:rgb(197, 197, 17);
-} */
-#para1{
-    /* color:blue;
-    background-color:deeppink; */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-#para2{
-    color: chartreuse;
-    background-color: dimgray;
-}
-#para3{
-    background-color: aqua;
-}
-#para4{
-    background-color: dimgray;
-}
-#para{
-    font-family:monospace;
-    background-color: rgb(88, 19, 173);
-}
-span{
-    background-color: blue;
-}
-a{
-    text-decoration:none ;
+.logo{
+    position: absolute;
+    top:20%;
+    left:20px;
+    font-size:30px;
 }
