@@ -1,0 +1,42 @@
+nav{
+padding:10px;
+position:sticky;
+position: relative;
+background-color:gray;
+}
+a{
+  text-decoration:none;
+  font-size:20px;
+  /* background-color:gray; */
+}
+.child2{
+    display:inline-block;
+    position:absolute;
+    right: 10px;
+    padding-right: 2px;
+}
+.child1{
+    display: inline-block;
+}
+/* figure{
+    position:relative;
+
+}
+figcaption{
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    bottom: 0;
+} */
+#imgeicon{
+    position:relative;
+    text-align: center;
+}
+#imgicon span{
+    position: absolute;
+    top:60%;
+    left:40%;
+    font-size:100px;
+    background-color:blue;
+    color: antiquewhite;
+}
